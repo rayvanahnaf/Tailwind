@@ -570,9 +570,22 @@ video {
   margin-top: 5rem;
 }
 
+.mt-8 {
+  margin-top: 2rem;
+}
+
+.mt-3 {
+  margin-top: 0.75rem;
+}
+
 .size-2\/3 {
   width: 66.666667%;
   height: 66.666667%;
+}
+
+.size-2\/4 {
+  width: 50%;
+  height: 50%;
 }
 
 .border {
@@ -629,6 +642,10 @@ video {
   padding-top: 1.5rem;
 }
 
+.text-center {
+  text-align: center;
+}
+
 .font-poppins {
   font-family: Poppins;
 }
@@ -652,6 +669,10 @@ video {
   font-weight: 700;
 }
 
+.italic {
+  font-style: italic;
+}
+
 .text-blue-400 {
   --tw-text-opacity: 1;
   color: rgb(96 165 250 / var(--tw-text-opacity));
@@ -664,4 +685,13 @@ video {
 
 .text-transparent {
   color: transparent;
+}
+
+.hover\:text-red-500:hover {
+  --tw-text-opacity: 1;
+  color: rgb(239 68 68 / var(--tw-text-opacity));
+}
+
+.hover\:underline:hover {
+  text-decoration-line: underline;
 }
