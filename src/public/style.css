@@ -639,6 +639,10 @@ video {
   background-attachment: local;
 }
 
+.bg-scroll {
+  background-attachment: scroll;
+}
+
 .bg-clip-text {
   -webkit-background-clip: text;
           background-clip: text;
