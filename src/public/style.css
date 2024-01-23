@@ -792,6 +792,14 @@ video {
   transition-duration: 300ms;
 }
 
+.first-letter\:float-start::first-letter {
+  float: inline-start;
+}
+
+.first-letter\:mr-3::first-letter {
+  margin-right: 0.75rem;
+}
+
 .first-letter\:text-7xl::first-letter {
   font-size: 4.5rem;
   line-height: 1;
