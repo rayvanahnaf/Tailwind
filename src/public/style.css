@@ -586,6 +586,14 @@ video {
   position: relative;
 }
 
+.top-0 {
+  top: 0px;
+}
+
+.right-0 {
+  right: 0px;
+}
+
 .float-left {
   float: left;
 }
