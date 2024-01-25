@@ -1353,6 +1353,14 @@ video {
     order: 6;
   }
 
+  .lg\:block {
+    display: block;
+  }
+
+  .lg\:hidden {
+    display: none;
+  }
+
   .lg\:max-w-lg {
     max-width: 32rem;
   }
