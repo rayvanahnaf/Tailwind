@@ -1342,6 +1342,11 @@ video {
 }
 
 @media (min-width: 768px) {
+  .md\:px-6 {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+
   .md\:text-center {
     text-align: center;
   }
@@ -1402,6 +1407,10 @@ video {
 
   .lg\:rounded {
     border-radius: 0.25rem;
+  }
+
+  .lg\:text-left {
+    text-align: left;
   }
 
   .lg\:text-center {
