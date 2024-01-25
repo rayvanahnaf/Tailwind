@@ -1362,6 +1362,10 @@ video {
     order: 6;
   }
 
+  .lg\:mt-10 {
+    margin-top: 2.5rem;
+  }
+
   .lg\:block {
     display: block;
   }
