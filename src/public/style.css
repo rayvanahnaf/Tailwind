@@ -779,12 +779,28 @@ video {
   grid-template-columns: repeat(9, minmax(0, 1fr));
 }
 
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.flex-wrap-reverse {
+  flex-wrap: wrap-reverse;
+}
+
 .justify-center {
   justify-content: center;
 }
 
+.justify-evenly {
+  justify-content: space-evenly;
+}
+
 .gap-4 {
   gap: 1rem;
+}
+
+.gap-5 {
+  gap: 1.25rem;
 }
 
 .overflow-y-scroll {
@@ -1252,5 +1268,9 @@ video {
 @media (min-width: 1024px) {
   .lg\:max-w-lg {
     max-width: 32rem;
+  }
+
+  .lg\:max-w-sm {
+    max-width: 24rem;
   }
 }
